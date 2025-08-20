@@ -5,7 +5,7 @@
 Use the command
 
 ```
-docker composeup up -d
+docker compose up -d
 ```
 
 then you can access the Jupyter notebook at
