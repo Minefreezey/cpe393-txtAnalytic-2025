@@ -6,3 +6,5 @@ nltk
 spacy
 seaborn
 networkx
+WordCloud
+textacy
