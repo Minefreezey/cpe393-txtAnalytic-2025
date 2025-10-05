@@ -1,10 +1,9 @@
 matplotlib
 scikit-learn
-numpy
+numpy<2.0,>=1.18.5
 pandas
 nltk
 spacy
 seaborn
 networkx
 WordCloud
-textacy

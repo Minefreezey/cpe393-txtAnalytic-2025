@@ -1,4 +1,4 @@
-FROM quay.io/jupyter/base-notebook
+FROM quay.io/jupyter/base-notebook:python-3.11
 
 # Set working directory
 WORKDIR /home/jovyan
@@ -7,4 +7,5 @@ WORKDIR /home/jovyan
 
 COPY --chown=jovyan:users requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt && \
-	fix-permissions /home/jovyan
+	fix-permissions /home/jovyan 
+
