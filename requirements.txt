@@ -7,3 +7,4 @@ spacy
 seaborn
 networkx
 WordCloud
+keras
