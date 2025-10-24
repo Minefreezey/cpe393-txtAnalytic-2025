@@ -8,3 +8,4 @@ seaborn
 networkx
 WordCloud
 keras
+tensorflow
